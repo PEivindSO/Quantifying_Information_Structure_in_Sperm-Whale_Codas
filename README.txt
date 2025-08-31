@@ -25,7 +25,7 @@ Included
 - src/assign_rhythm_by_means.py
 - src/sw_loader.py
 - src/entropies.py
-- src/bootstrap.py                  (Not used for analylis)
+- src/bootstrap.py                  (Not used for analysis)
 - requirements.txt 
 - LICENSE-DATA.txt (data credit & license)
 
