@@ -1,0 +1,13 @@
+Data License and Credit
+=======================
+
+The datasets in the data folder originate from the sources cited below
+
+Source & Credit:
+- Sharma, P. et al. (2024). Contextual and combinatorial structure in sperm whale vocalisations.
+  Nature Communications. doi:10.1038/s41467-024-47221-8
+- Dominica Sperm Whale Project (DSWP), as described by the authors.
+
+License:
+-Licensed under CC BY 4.0
+
