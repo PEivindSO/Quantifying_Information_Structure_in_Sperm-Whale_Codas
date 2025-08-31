@@ -90,11 +90,11 @@ if __name__ == "__main__":
     H_u_given_orn = conditional_entropy(df["unit"], df["ornament_flag"])
     H_u_given_both = conditional_entropy(df.loc[mask_rub, "unit"], list(zip(df.loc[mask_rub, "rubato_bin"].astype(int), df.loc[mask_rub, "ornament_flag"])))
     H_rate, H_rate_raw = entropy_rate_order1(df["unit"].tolist(), df["exchange_id"].tolist())
-    
+
 
     I_u_rub  = H_unit_rub - H_u_given_rub
     I_u_orn  = H_unit - H_u_given_orn
-    I_u_both = H_unit_rub - H_u_given_both
+    I_u_both = H_unit_rub - H_u_given_both 
 
     #Prints
     print(f'Codas: {len(df)} | Rhythms: {df["rhythm_type"].nunique()} | Tempo types: {df["tempo_type"].nunique()}')

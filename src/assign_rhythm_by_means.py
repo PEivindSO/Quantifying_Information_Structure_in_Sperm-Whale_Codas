@@ -3,12 +3,6 @@ import numpy as np
 import pandas as pd
 
 def assign_rhythm_by_means(df, mean_codas_path="data/mean_codas.p"):
-    """
-    Assign a rhythm type to each row by comparing normalized cumulative click times
-    against precomputed mean rhythm templates from Nature paper.
-
-    Output: dataframe with an extra column 'rhythm_type'
-    """
     
     # Load mean templates
     with open(mean_codas_path, "rb") as f:

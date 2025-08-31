@@ -1,5 +1,6 @@
 import pandas as pd, numpy as np, pickle
 
+
 def _icis_from_row(row, nclicks_col, max_icis=64):
     # Build ICI list ICI1..ICI{n-1}
     #nClicks_col: use with or without ornamentation

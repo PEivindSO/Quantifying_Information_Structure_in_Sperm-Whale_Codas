@@ -2,6 +2,7 @@ import numpy as np, pandas as pd
 from numpy.random import default_rng
 
 
+
 #Bootstrap CHANGE B, is 10 (low) for convenience (runs faster)
 def bootstrap_ci(df, stat_fn, group_col='exchange_id', B=10, alpha=0.05, rng = None):
     """

@@ -16,7 +16,7 @@ Null (within-exchange shuffles): mean 2.549; 95% [2.517, 2.581]
 Mean ornament-free duration: 0.912 s -> 3.82 bits/s (marginal)
 
 Included
---------
+--------------
 - Quantifying_Information_Structure_in_Sperm-Whale_Codas.pdf (final write-up)
 - data/sperm-whale-dialogues.csv
 - data/mean_codas.p               (rhythm templates)
