@@ -1,6 +1,6 @@
 Whale Coda Information Structure
 
-Code + data to reproduce information-theoretic analyses of sperm-whale codas
+Code + data to reproduce information-theoretic analyses of sperm whale codas
 using a rhythm×tempo unit and contextual overlays (rubato, ornamentation).
 
 Key numbers
@@ -17,7 +17,7 @@ Mean ornament-free duration: 0.912 s -> 3.82 bits/s (marginal)
 
 Included
 --------------
-- Quantifying_Information_Structure_in_Sperm-Whale_Codas.pdf (final write-up)
+- Quantifying_Information_Structure_in_Sperm_Whale_Codas.pdf (final report)
 - data/sperm-whale-dialogues.csv
 - data/mean_codas.p               (rhythm templates)
 - data/ornaments.p                (ornament annotations)
@@ -25,7 +25,7 @@ Included
 - src/assign_rhythm_by_means.py
 - src/sw_loader.py
 - src/entropies.py
-- src/bootstrap.py                  (Not used for analysis)
+- src/bootstrap.py                (Not used for analysis)
 - requirements.txt 
-- LICENSE-DATA.txt (data credit & license)
+- LICENSE-DATA.txt                (data credit & license)
 
